@@ -60,75 +60,9 @@ Cards_deck = ["Ace_spades", "Ace_diamonds", "Ace_hearts", "Ace_clubs", "King_spa
     #High_Card : 5
 #}
 
-cards_value = {
-    "Ace_spades": {"suit": "spades", "value": 14},
-    "Ace_diamonds": {"suit": "diamonds", "value": 14},
-    "Ace_hearts": {"suit": "hearts", "value": 14},
-    "Ace_clubs": {"suit": "clubs", "value": 14},
 
-    "King_spades": {"suit": "spades", "value": 13},
-    "King_diamonds": {"suit": "diamonds", "value": 13},
-    "King_hearts": {"suit": "hearts", "value": 13},
-    "King_clubs": {"suit": "clubs", "value": 13},
-
-    "Queen_spades": {"suit": "spades", "value": 12},
-    "Queen_diamonds": {"suit": "diamonds", "value": 12},
-    "Queen_hearts": {"suit": "hearts", "value": 12},
-    "Queen_clubs": {"suit": "clubs", "value": 12},
-
-    "Jack_spades": {"suit": "spades", "value": 11},
-    "Jack_diamonds": {"suit": "diamonds", "value": 11},
-    "Jack_hearts": {"suit": "hearts", "value": 11},
-    "Jack_clubs": {"suit": "clubs", "value": 11},
+cards_value = 0
    
-    "10_spades": {"suit": "spades", "value": 10},
-    "10_diamonds": {"suit": "diamonds", "value": 10},
-    "10_hearts": {"suit": "hearts", "value": 10},
-    "10_clubs": {"suit": "clubs", "value": 10},
-
-    "9_spades": {"suit": "spades", "value": 9},
-    "9_diamonds": {"suit": "diamonds", "value": 9},
-    "9_hearts": {"suit": "hearts", "value": 9},
-    "9_clubs": {"suit": "clubs", "value": 9},
-
-    "8_spades": {"suit": "spades", "value": 8},
-    "8_diamonds": {"suit": "diamonds", "value": 8},
-    "8_hearts": {"suit": "hearts", "value": 8},
-    "8_clubs": {"suit": "clubs", "value": 8},
-
-    "7_spades": {"suit": "spades", "value": 7},
-    "7_diamonds": {"suit": "diamonds", "value": 7},
-    "7_hearts": {"suit": "hearts", "value": 7},
-    "7_clubs": {"suit": "clubs", "value": 7},
-
-    "6_spades": {"suit": "spades", "value": 6},
-    "6_diamonds": {"suit": "diamonds", "value": 6},
-    "6_hearts": {"suit": "hearts", "value": 6},
-    "6_clubs": {"suit": "clubs", "value": 6},
-
-    "5_spades": {"suit": "spades", "value": 5},
-    "5_diamonds": {"suit": "diamonds", "value": 5},
-    "5_hearts": {"suit": "hearts", "value": 5},
-    "5_clubs": {"suit": "clubs", "value": 5},
-
-    "4_spades": {"suit": "spades", "value": 4},
-    "4_diamonds": {"suit": "diamonds", "value": 4},
-    "4_hearts": {"suit": "hearts", "value": 4},
-    "4_clubs": {"suit": "clubs", "value": 4},
-
-    "3_spades": {"suit": "spades", "value": 3},
-    "3_diamonds": {"suit": "diamonds", "value": 3},
-    "3_hearts": {"suit": "hearts", "value": 3},
-    "3_clubs": {"suit": "clubs", "value": 3},
-
-    "2_spades": {"suit": "spades", "value": 2},
-    "2_diamonds": {"suit": "diamonds", "value": 2},
-    "2_hearts": {"suit": "hearts", "value": 2},
-    "2_clubs": {"suit": "clubs", "value": 2}
-    #This have now given each card a suit and a value for the use of the point system e.g straight flush, high pair exc...
-
-    
-}
 
 def print_slow(str):
     for letter in str:
